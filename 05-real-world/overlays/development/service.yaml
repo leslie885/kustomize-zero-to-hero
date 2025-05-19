@@ -4,9 +4,12 @@ metadata:
   name: app
   namespace: test
 spec:
-  ports:
-    - name: http
-      port: 30
-      targetPort: 30
   selector:
     app: app
+  ports:
+    - name: web
+      port: 30
+      targetPort: 30
+    - name: admin
+      port: 31
+      targetPort: 31
