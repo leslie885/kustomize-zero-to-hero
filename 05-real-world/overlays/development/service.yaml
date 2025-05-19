@@ -13,3 +13,6 @@ spec:
     - name: admin
       port: 31
       targetPort: 31
+    - name: metrics
+      port: 32
+      targetPort: 32
