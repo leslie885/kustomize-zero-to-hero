@@ -4,6 +4,7 @@ namespace: test
 
 resources:
 - ../../base
+- namespace.yaml
 
 
 patchesStrategicMerge:
