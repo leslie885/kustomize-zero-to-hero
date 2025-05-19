@@ -3,11 +3,4 @@ kind: Kustomization
 
 resources:
 - ../../base
-
-namePrefix: prod-
-
-configMapGenerator:
-- name: app-config
-  behavior: merge
-  literals:
-  - database_host=prod-db.example.com
+- service.yaml
