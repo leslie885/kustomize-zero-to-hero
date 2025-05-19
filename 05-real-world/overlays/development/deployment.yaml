@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: test
+  labels:
+    app: app
+spec:
+  replicas: 1
+ 
