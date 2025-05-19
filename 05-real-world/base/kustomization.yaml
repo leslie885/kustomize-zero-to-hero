@@ -6,4 +6,5 @@ namespace: one
 resources:
   - deployment.yaml
   - ConfigMap.yaml
+  - service.yaml
   
